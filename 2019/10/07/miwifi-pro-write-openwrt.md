@@ -1,7 +1,13 @@
+---
+title: 小米路由器Pro刷OpenWrt固件
+---
+
 #前言
+
 小米路由器刷机的资料感觉相对其它厂家的路由器还是比较少的，而且小米家路由器仅有的资料又和我这个路由器型号(我的是小米路由器Pro)对不上，但庆幸的是我在OpenWrt的官网上找到了对应型号的文档，所以整个刷机过程也比较顺利。
 
 #小米路由器的前置条件
+
 首先要把小米路由器的固件升级为开发版本，因为后面获取路由器的SSH功能需要，首先进入小米开发固件的官方下载页面:[http://www1.miwifi.com/miwifi_download.html](http://www1.miwifi.com/miwifi_download.html)
 
 ![](https://upload-images.jianshu.io/upload_images/2133834-47945ea493c49de5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -39,6 +45,7 @@ Windows下可以使用ipconfig查看默认网关地址，也就是路由器地�
 
 
 #下载对应的OpenWrt固件
+
 最好的情况下是直接找到路由器型号对应的OpenWrt固件(因为自己编译又耗费精力又耗费时间)，一般可以先在OpenWrt官方的硬件文档中寻找到自己对应的路由器:[https://openwrt.org/toh/start](https://openwrt.org/toh/start) 在这个页面中ctrl+f搜索“XiaoMi”:
 ![](https://upload-images.jianshu.io/upload_images/2133834-d703d6fe8db7a16d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 可以点击最后一列的“ViewEdit data”来查看该硬件设备的文档，这里面会包含该硬件型号可用的OpenWrt固件文件的下载地址:
